@@ -1,0 +1,43 @@
+body {
+	background-color: powderblue;
+	margin: 0;
+}
+
+#header {
+	padding: 20px;
+	height: 50px;
+	width: 100%;
+	position:fixed;
+	background-color: slategrey;
+	
+	
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 300px;
+	color: white;
+	text-shadow: 2px 2px 5px blue;
+}
+
+#buttons {
+	position: absolute;
+	right: 60px;
+	top: 25px;
+}
+
+button {
+	color: white;
+	background-color: slategrey;
+	border: none;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+}
+
+#userlist {
+	padding-top: 100px;
+	padding-left: 20px;
+	font-size: 20px;
+}
