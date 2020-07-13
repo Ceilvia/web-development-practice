@@ -37,10 +37,56 @@ button {
 	text-align: center;
 	padding: 10px;
 	display: inline-block;
+	cursor: pointer;
 }
 
 #userlist {
 	padding-top: 100px;
 	padding-left: 20px;
 	font-size: 20px;
+}
+
+#h2login {
+	margin: 0;
+	padding-left: 10px;
+	padding-top: 10px
+}
+
+#login {
+	display: none;
+	background-color: white;
+	position: fixed;
+	width: 200px;
+	height: 230px;
+	top: 50%;
+	left: 50%;
+	margin-top: -115px;
+	margin-left: -100px;
+	border: 3px solid #f1f1f1;
+}
+
+#loginform {
+	padding: 10px;
+}
+
+#loginform .btn{
+	background-color: #4CAF50;
+	width: 40%;
+	padding-top: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#loginform input[type=text], #loginform input[type=password] {
+	width: 160px;
+	padding: 10px;
+	border: none;
+	background: #f1f1f1;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#loginform label {
+
 }
